@@ -1,0 +1,30 @@
+{
+  "name": "sajid-cli-calculator",
+  "version": "1.1.0",
+  "description": "CLI Based Calculator Project",
+  "main": "./lib/main.js",
+  "bin": {
+    "sajid-cli-calculator": "bin/lib/main.js"
+  },
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.17"
+  }
+}
