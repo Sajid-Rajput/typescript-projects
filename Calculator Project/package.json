@@ -1,10 +1,10 @@
 {
   "name": "sajid-cli-calculator",
-  "version": "1.1.0",
+  "version": "1.7.0",
   "description": "CLI Based Calculator Project",
-  "main": "./lib/main.js",
+  "main": "index.js",
   "bin": {
-    "sajid-cli-calculator": "bin/lib/main.js"
+    "sajid-cli-calculator": "./lib/index.js"
   },
   "type": "module",
   "directories": {
