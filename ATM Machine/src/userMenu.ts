@@ -41,8 +41,10 @@ export default async function userMenu(): Promise<void> {
               },
             },
           ])
-          .then(async (given_widthDraw_Amount: string): Promise<void> => {
-            userValidation.withdraw(Number(given_widthDraw_Amount));
+          .then(async (given_widthDraw_Amount): Promise<void> => {
+            userValidation.withdraw(
+              Number(given_widthDraw_Amount.withDraw_Amount)
+            );
             console.log("\n");
             await loading("Processing...");
             console.log(`
@@ -73,8 +75,8 @@ export default async function userMenu(): Promise<void> {
               },
             },
           ])
-          .then(async (given_deposit_Amount: string): Promise<void> => {
-            userValidation.deposit(Number(given_deposit_Amount));
+          .then(async (given_deposit_Amount): Promise<void> => {
+            userValidation.deposit(Number(given_deposit_Amount.deposit_Amount));
             console.log("\n");
             await loading("Processing...");
             console.log(`
