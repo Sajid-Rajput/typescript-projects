@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import title from "./title.js";
 import userMenu from "./userMenu.js";
 import { thankYou } from "./endgraphic.js";
