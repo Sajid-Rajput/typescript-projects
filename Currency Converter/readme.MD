@@ -1,0 +1,1 @@
+npx sajid-currency-converter
