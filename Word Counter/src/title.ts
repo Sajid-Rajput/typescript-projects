@@ -2,7 +2,7 @@ import chalkAnimation from "chalk-animation";
 
 function sleep(): Promise<unknown> {
   return new Promise((resolve) => {
-    setTimeout(resolve, 3200);
+    setTimeout(resolve, 3500);
   });
 }
 
